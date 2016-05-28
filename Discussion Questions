@@ -1,0 +1,65 @@
+Runtime
+
+1. The Workload of a function that takes in a list of integers and returns a new list of the even integers is the length of the input list.
+
+2. Least efficient
+   O(2^n)
+   O(n^2)
+   O(n log n)
+   O(n)
+   O(log n)
+   O(1)
+   Most efficient
+
+
+Stacks and Queues
+
+1.1 Stack
+1.2 Queue
+1.3 Stack
+
+2. Queues are also appropriate when loading video or audio media, or when running a bredth-first search on a tree.
+
+3. Stacks should be used when parsing parentheses/brackets in text, or when running a depth-first search on a tree.
+
+
+Linked Lists
+
+1. The nodes are composed of a divided rectangle, the left section containing the data (a string reading "apple", "berry", or "cherry"), and the right section containing either another node or None (denoted by the word 'next').
+The head is the node that contains the string "Apple". The tail is the string which contains the string "Cherry", and whose 'next' attribute is set equal to None.
+
+2. In a singly-linked list, each node contains only its data and the following node. In a doubly-linked-list, each node contains its data, the node following it, and the node preceding it, making it easier to traverse the list backwards if need be.
+
+3. Keeping track of an linked list's tail allows the computer to jump directly to the final item in the list. Without it, one would need to traverse the entire list from the begining in order to find the end.
+
+
+Trees
+
+1. A bredth-first search would traverse the given tree in the following order:
+    food
+    Italian
+    Indian
+    Mexican
+    lasagna
+    pizza
+    tikka masala
+    saag
+    burito
+
+2. A depth-first search would traverse the given list in the following order:
+    food
+    Mexican
+    enchiladas
+    tacos
+    burrito
+    Indian
+    saag
+    tikka masala
+    Italian
+    pizza
+    Sicilian
+    New York-style
+    Chicago-style
+
+3. In a binary search tree, every node has exactly two children. These children may be None. They are also ordered such that a node's left child's data is less than its own (however that is defined), and the right node's data is greater.
+
